@@ -21,24 +21,25 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark" style=" background-image: url(./assets/img/shutterstock_574261726.jpg)" >
+        <nav class="navbar navbar-expand-md navbar-dark" style=" background-color:#43a4aa ;" >
             <div class="container-fluid ">
               <a class="navbar-brand" href="#"><img src="./assets/png/logo.jpeg" class="avatar avatar-xss rounded-circle img-fluid w-25 mr-2 " style="max-width: 3rem;"><span class="mr-2">Capucine Fauroux</span></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" class="btn btn-outline-primary" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse text-dark" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 d-lg-flex justify-content-end w-100">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 d-lg-flex justify-content-end container">
                 
                   <li class="nav-item">
-                    <a class="nav-link" href="#project">Mes projets</a>
+                    <a class="nav-link" href="./index.html">Accueil</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./howto.htlm">Case Study</a>
+                    <button type="submit" class="btn text-light" onclick="window.open('cv.pdf')">Mon CV</button>
+
                   </li>
             
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Me contacter</a>
+                    <a class="nav-link" href="mailto:capucine.fauroux@gmail.com">Me contacter</a>
                   </li>
                 </ul>
          
@@ -48,24 +49,41 @@
     </header>
     <main id="content" role="main">
 
-   
+      <div class="container mt-4">
+        <nav aria-label="breadcrumd rounded p-4" style="border: solid 1px #43a4aa;
+        border-radius: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 9px;">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+          </ol>
+        </nav>
+        
+      </div>
+      
 
       
-<div class="w-100">
+<div class="container">
   <div class="d-lg-flex align-items-center justify-content-between">
     <div class="clo-lg-4">
       <img src="./assets/img/Plan de travail – 1.png" class="img-fluid rounded">
     </div>
     <div class="col-lg-7">
       <h3>Logos et déclinaisons</h3>
+      <p>Logo en couleurs et déclinaisons en noir et blanc.</p>
+      
       <p></p>
     </div>
   </div>
   <div class="d-lg-flex align-items-center justify-content-between">
  
     <div class="col-lg-7">
-      <h3>Logos et déclinaisons</h3>
-      <p></p>
+      <h3>Absurd Design</h3>
+      <p>Un site que j'aime m'être en avant, et qui change un peu de Flaticon.</p>
+      <a href="https://absurd.design/" target="_blank" class="btn btn-outline-primary btn-pill">Aller Voir</a>
     </div>
     <div class="clo-lg-4">
       <img src="./assets/img/Plan de travail – 2.png" class="img-fluid">
@@ -77,8 +95,9 @@
       <img src="./assets/img/Plan de travail – 3.png" class="img-fluid">
     </div>
     <div class="col-lg-7">
-      <h3>Logos et déclinaisons</h3>
-      <p></p>
+      <h3>Des couleurs, encore de couleurs</h3>
+
+      <p>Je veux que ce qui me représente soit absurd, abstrait, de la couleurs mais surtout de bonnes intentions.</p>
     </div>
   </div>
 </div>
@@ -98,13 +117,7 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/vendor/typed/typed.min.js"></script>
 
-   
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['Je suis UX/ UI Designer', 'Comment puis-je vous aider ?', 'Je suis UX/ UI Designer', 'Comment puis-je vous aider ?',],
-          typeSpeed: 80,
-        });
-      </script>
+ 
 
   </body>
 </html>
