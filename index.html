@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Title -->
-    <title>Accueil</title>
+    <title>Portfolio</title>
   
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -20,10 +20,10 @@
         
   </head>
   <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #86c8d0;" >
+    <header id="header" class="position-fixed w-100 p-1" style="z-index: 1;">
+        <nav class="navbar navbar-expand-md navbar-dark" >
             <div class="container-fluid ">
-              <a class="navbar-brand" href="#"><img src="./assets/png/logo.jpeg" class="avatar avatar-xss rounded-circle img-fluid w-25 mr-2 " style="max-width: 3rem;"><span class="mr-2">Capucine Fauroux</span></a>
+              <a class="navbar-brand" href="#"><img src="./assets/png/logo-blanc.png" class="img-fluid ml-2 w-35" ></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -33,8 +33,8 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#project">Mes projets</a>
                   </li>
-                  <li class="nav-item">
-                    <button type="submit" class="btn text-light" onclick="window.open('cv.pdf')">Mon CV</button>
+                  <li class="nav-item ">
+                    <button type="submit" class="nav-link pb-0 text-light bg-transparent  border-0" onclick="window.open('cv.pdf')">Mon CV</button>
 
                   </li>
             
@@ -49,299 +49,216 @@
     </header>
     <main id="content" role="main">
 
-   
-
-        <div class="position-relative" style="    background: #86c8d0;
-        /* object-fit: cover; */
-        width: 100%;
-    " >
-            <div class="container space-5 text-center" >
-
-                <h5 class="text-light">Hello, moi c’est Capucine !</h5>
-                <span class="h1 text-dark"  id="element"></span>
-               
-
-   
-              </div>
-
-       <!-- SVG Shapes -->
-      <figure class="right-0 bottom-0 left-0 d-lg-block d-none">
-        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
-          <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"/>
-        </svg>
-      </figure>
-      <!-- End SVG Shapes -->
-        </div>
-     <!-- Clients Section -->
-     <div class=" position-absolute z-index-2 d-lg-block d-none" style="    margin-top: -91px;">
-        <div class="w-100 d-flex justify-content-center align-items-center">
-            <div class="col-2 d-none d-sm-inline-block" style="margin-top: -22px;">
-              <!-- Logo -->
-              <div class="avatar avatar-xl  mx-auto">
-                <img class=" w-25 rounded-circle" src="./assets/img/AF.png" alt="Image Description">
-              </div>
-              <!-- End Logo -->
-            </div>
-    
-            <div class="col-lg-2 d-none d-lg-inline-block mt-lg-n8">
-              <a target="_blank" href="https://github.com/CapucineFX/CapucineFX.github.io">
-
-              <!-- Logo -->
-              <div class=" mx-auto">
-                <img class="avatar-img img-fluid w-25 rounded-circle" src="./assets/img/logo/github.png" alt="Image Description" width="160" height="160">
-              </div>
-
-              <!-- End Logo -->
-            </a>
-            </div>
-    
-            <div class="col-2 d-none d-sm-inline-block mt-n4">
-              <!-- Logo -->
-              <a href="./howto.html">
-              <div class=" mx-auto">
-                <img class="rounded-circle img-fluid w-25 " src="./assets/img/logo/XD.webp" alt="Image Description">
-              </div>
-            </a>
-              <!-- End Logo -->
-            </div>
-    
-            <div class="col-2 d-none d-sm-inline-block mt-n7">
-              <!-- Logo -->
-        
-              <div class="avatar avatar-xl  mx-auto">
-                <img class="avatar-img img-fluid w-25 rounded-circle" src="./assets/img/logo/html5.png" alt="Image Description">
-              </div>
-
-              <!-- End Logo -->
-            </div>
-    
-            <div class="col-lg-2 d-none d-lg-inline-block mt-lg-n11">
-              <!-- Logo -->
-              <div class=" mx-auto">
-                <img class="avatar-img img-fluid w-25 rounded-circle" src="./assets/img/logo/figma.png" alt="Image Description" width="160" height="160">
-              </div>
-              <!-- End Logo -->
-            </div>
-    
-           
-          </div>
-      </div>
-      <!-- End Clients Section -->
-
-   
       
-      <div class="w-100  d-lg-block d-none" style="margin-top: -60px;">
-     
-         
-        <img src="./assets/img/process1.png" class="img-fluid" >
-    </div>
 
-          
-    <div class="w-100  d-sm-block d-lg-none d-none" >
-     
-         
-        <img src="./assets/img/process-mobile.png" class="img-fluid" >
-    </div>
+        <div class="position-relative" style="    background: #e2b330;" >
 
-
-
-
-    <div class="position-relative bg-dark" >
-        <div class="container space-3" >
-  
-  
-          <div class="d-lg-flex align-items-center justify-content-center ">
-            <div class="col-lg-5 text-light">
-                <p class="text-uppercase">Projet Phare</p>
-                <h2>YCITY</h2>
-    
-      
-               <p>Ycity crée des liens entre les municipalités, les associations, les entreprises et les citoyens. Il offre aux associations une visibilité accrue grâce à une carte interactive, qui permet aux citoyens de s'impliquer en tant que bénévoles pour agir au cœur des villes, et aide les municipalités à diffuser efficacement leurs communications.         </p> 
-
-               <button type="submit" target="_blank" class="btn btn-outline-light btn-lg" onclick="window.open('offres-de-service.pdf')">Découvrir le projet</button>
-
-               </div>
-  
-               <div class="col-1"></div>
-               <div class="col-lg-4 d-lg-block d-none" >
-                <img src="./assets/img/carte_interactive_1-8.png" class="img-fluid">
-               </div>
-        </div>
-  
-          </div>
-  
-   <!-- SVG Shapes -->
-  <figure class="right-0 bottom-0 left-0 mb-n11 d-none">
-    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
-      <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"/>
-    </svg>
-  </figure>
-  <!-- End SVG Shapes -->
-    </div>
-
-  <div class="container space-top-2 mt-4" id="project">
-    <h2 class="mb-4">
-        Suivez-moi sur Behance
-    </h2>
-  </div>
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner pb-0">
-      <div class="carousel-item active">
-
-      
-        <div class="w-100">
-          <div class="carousel-caption text-start">
-            <div class="d-lg-flex ">
-                <div class=" col-lg-4">
-                    <a href="https://www.behance.net/gallery/189214050/YCITY" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/YCITY/page-de-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Projet intercommunale</h5>
-                                 </div>
-                         </div>
-                    </a>
+            <div class="container space-lg-1 space-sm-5 text-center" >
+              
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 col-11 text-center">
                   
-                </div>
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/189214435/Fdration-des-constructeurs-de-communaut?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/FC/Pa-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Les fédérateurs de communautés </h5>
-                                 </div>
-                         </div>
-                    </a>
-                  
-                </div>
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/189390061/Landingpage-de-SaaSforSkills?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/SAASFORSKILLS/page-de-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Software as a Service</h5>
-                                 </div>
-                         </div>
-                    </a>
-                  
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-      
-        <div class="container">
-          <div class="carousel-caption">
-            <div class="d-lg-flex ">
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/189223973/SensYcap?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/SENSYCAP/p-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Sensibilisation à l'autisme</h5>
-                                 </div>
-                         </div>
-                    </a>
-                  
-                </div>
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/108117671/Lavoir-Moderne-Vido?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/LavoirModerne/page-de-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Motion design Lavoir Moderne</h5>
-                                 </div>
-                         </div>
-                    </a>
-                  
-                </div>
-         
-            </div>
-          </div>
-        </div>
-      </div>
-  
-    </div>
-    <button class="carousel-control-prev " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
-
-  <div class="position-relative" style="background-color: #b2992f;">
-    <div class="container space-3" id="contact">
-
-
-        <div class="d-lg-flex">
-       
-            <div class="col-lg-7">
-                <p class="text-light">ME CONTACTER</p>
-                <h2 class="text-light mb-4">Vous avez un projet ?</h2>
-       
-     
-                  <ul class="text-light mb-4">
-                    <li>Recherches UX, définition des besoins et
-                      objectifs (user case, persona...)</li>
-                    <li>Conception ou amélioration d'une App ou d'un site internet'</li>
-                    <li>Création de contenus et de designs (charte
-                      graphique, brochure, création de logos etc..)</li>
-        
-                  </ul>
+                  <h1 class="text-light display-1 text-center col-sm-12">Portfolio</h1>
+                  <span class="h1 text-dark"  id="element"></span>
                  
-       
-                <a href="mailto:capucine.fauroux@gmail.com" target="_blank" class="btn btn-outline-light btn-lg">Contacter moi</a>
+                </div>
+
+                <div class="col-lg-6 d-none d-lg-block">
+                  <img src="./assets/img/cap3.png" alt="Capucine" class="img-fluid" style="width: 65%; 
+    z-index: 1;">
+                
+                
+           
+                </div>
+
+              </div>
+             
+
+   
+              </div>
+
+
+        </div>
+    
+        <div class="position-relative">
+          <div class="d-lg-flex align-items-center d-md-flex container-fluid  mb-4 space-3">
+              <div class="col-md-6  col-sm-12">
+                  <img src="./assets/img/presentation3.png" class="img-fluid w-100" alt="Image gauche">
+              </div>
+              <div class="col-md-6  col-sm-12 d-flex align-items-center">
+                <div class="card-body">
+    
+                  <p>Forte de mon expérience dans le Web et l’UX design, j'ai développé plusieurs compétences et traités différents problématiques projets dans :
+                    <ul>
+                      <li>Recherche Utilisateurs</li>
+                      <li>Design graphique</li>
+                      <li>Mise en place d'une stratégie digitale</li>
+                      <li>Développement d'applications ou de plateforme (par le code ou le prototypage)</li>
+                      <li>Analyse des données</li>
+                      <li>Testing </li>
+                    </ul>
+                  
+                
+                    
+                    Lors de ma dernière expérience, on m'a reconnue pour ma capacité à donner du sens aux histoires.
+                    Mes valeurs sont celles du partage et de l'innovation. 
+                    
+                    Chaque projet est une opportunité de faire mieux. J'aime repenser aux solutions de demain et c’est pourquoi je me suis orienté vers ces métiers-là.</p>
+
+                </div>
+              </div>
+          </div>
+      </div>
+      
+
+
+      <div class="position-relative" style="background-color: #000">
+        <div class="d-lg-flex justify-content-end d-md-flex container-fluid space-3">
+            <div class="col-md-6 col-sm-12 d-flex align-items-center order-sm-2">
+              <img src="./assets/img/services.png" class="img-fluid w-100" alt="Image droite">
             </div>
-            <div class="col-auto"></div>
-            <div class="col-lg-4 d-lg-block d-none">
-                <img src="./assets/img/Untitled_Artwork-3-1.gif" class="img-fluid w-75">
+            <div class="col-md-4 col-sm-12  order-sm-1">
+          
+               <div class="row m-0 justify-content-center">
+                <div class="col-3">
+                  <img src="./assets/png/icones/audit.png" alt="icone audit ux" class="img-fluid">
+                  <p class="text-center text-light">Audit UX</p>
+                </div>
+                <div class="col-3">
+                  <img src="./assets/png/icones/strat.png" alt="icone audit ux" class="img-fluid">
+                  <p class="text-center text-light">Stratégie Digitale</p>
+                </div>
+                <div class="col-3">
+                  <img src="./assets/png/icones/charte.png" alt="icone audit ux" class="img-fluid">
+                  <p class="text-center text-light">Charte graphique</p>
+                </div>
+              
+                <div class="col-3">
+                  <img src="./assets/png/icones/media.png" alt="icone audit ux" class="img-fluid">
+                  <p class="text-center text-light">Diffusion Média</p>
+                </div>
+                <div class="col-3">
+                  <img src="./assets/png/icones/analytics.png" alt="icone audit ux" class="img-fluid">
+                  <p class="text-center text-light">Analytics</p>
+                </div>
+                <div class="col-3">
+                  <img src="./assets/png/icones/web.png" alt="icone audit ux" class="img-fluid">
+                  <p class="text-center text-light">Site responsive</p>
+                </div>
+                
+               </div>
+             
+         
+             
             </div>
         </div>
+    </div>
 
+<div class="position-relative space-3" >
+  <div class="container-fluid w-100">
+    <div class="d-md-flex d-block justify-content-between container">
+      <div class="col-md-5 col-lg-4 mr-lg-2  col-sm-12  mb-4">
+        <div class="card h-100 shadow-lg">
+          <div class="card-body">
+            <div class="text-center p-3">
+              <h5 class="card-title">Mise en place de site</h5>
+              <small>Sans l'hébergement</small>
+              <br>
+              <br>
+              
+            
+              <span class="h2">300€</span>
+             
+            </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg> Audit UX</li>
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg>Prototypages </li>
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg> Codage de site</li>
+          </ul>
+          <div class="card-body text-center">
+            <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button>
+          </div>
+        </div>
       </div>
+      <div class="col-md-3 col-lg-4 mr-lg-2  col-sm-12  mb-4">
+        <div class="card h-100 shadow-lg">
+          <div class="card-body">
+            <div class="text-center p-3">
+              <h5 class="card-title">Création de design</h5>
+              <small>A l'unité</small>
+              <br><br>
+              <span class="h2">60€</span>/pièces
+              
+            </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg>Création d'un logo</li>
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg>Autres design (Icones, infographies, brochures commerciales)</li>
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg>Montage vidéo</li>
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg>Design de produit</li>
+            
+          </ul>
+          <div class="card-body text-center">
+            <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-4 mr-lg-2  col-sm-12  mb-4">
+        <div class="card h-100 shadow-lg">
+          <div class="card-body">
+            <div class="text-center p-3">
+              <h5 class="card-title">Réseaux sociaux</h5>
+              <small>Le prix peut dépendre selon les plateformes</small>
+              <br><br>
+              <span class="h2">150€</span>/mois
+              
+            </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg>Définir des topics</li>
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg> Création post</li>
+            <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+            </svg> Campagne e-mailing</li>
+         
+          </ul>
+          <div class="card-body text-center">
+            <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
 
-<!-- SVG Shapes -->
-<figure class="right-0 bottom-0 left-0 mb-n11 d-none">
-<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
-  <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"/>
-</svg>
-</figure>
-<!-- End SVG Shapes -->
+
 </div>
-
-
     </main>
+    <footer class="footer">
+      <div class="social-icons">
+          <a href="https://github.com/CapucineFX" target="_blank" class="icon github"></a>
+          <a href="https://www.linkedin.com/in/capucine-fauroux/" target="_blank" class="icon linkedin"></a>
+          <a href="https://www.behance.net/capucinefrx" target="_blank" class="icon behance"></a>
+      </div>
+  </footer>
 
  <!-- Element to contain animated typing -->
  <span id="element"></span>
@@ -361,6 +278,21 @@
           strings: ['Je suis UX/ UI Designer', 'Comment puis-je vous aider ?', 'Je suis UX/ UI Designer', 'Comment puis-je vous aider ?',],
           typeSpeed: 80,
         });
+
+        let header = document.getElementById('header');
+    let timer;
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
+            clearTimeout(timer);
+            timer = setTimeout(() => {
+                header.classList.add('header-white');
+            },100);
+        } else {
+            clearTimeout(timer);
+            header.classList.remove('header-white');
+        }
+    });
       </script>
 
   </body>
