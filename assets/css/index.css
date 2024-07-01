@@ -11,6 +11,10 @@ header {
 .navbar-brand {
     font-family: 'Forte', Courier, monospace;
 }
+
+.space-top-3 {
+    padding-top: 3rem;
+}
 .footer {
     background-color: #000;
     padding: 20px 0px 20px 0px;
