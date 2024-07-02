@@ -8,6 +8,11 @@
     color: #ffffff;
 }
 
+.btn-light{
+    background-color: #ffffff;
+    color: #f7b03c;
+}
+
 /* Les Basiques  */
 header {
     position: fixed;
