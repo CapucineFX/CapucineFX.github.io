@@ -414,8 +414,8 @@ and (max-device-width : 991px) {
     font-size: 3.5rem;
   }
   .col-sm-3 {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%
+    flex: 0 0 19.66667%;
+    max-width: 19.66667%;
   }
 }
 
