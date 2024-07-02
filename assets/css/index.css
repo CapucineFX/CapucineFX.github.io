@@ -1,3 +1,13 @@
+.btn-outline-primary{
+    border-color: #f7b03c;
+    color: #f7b03c;
+}
+
+.btn-outline-primary:hover{
+    background-color: #f7b03c;
+    color: #ffffff;
+}
+
 /* Les Basiques  */
 header {
     position: fixed;
