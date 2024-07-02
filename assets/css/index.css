@@ -13,6 +13,16 @@
     margin-right: 2rem;
 }
 
+.pr-0{
+    padding-right: 0rem;
+}
+
+
+.pl-0{
+    padding-left: 0rem;
+}
+
+
 .btn-light{
     background-color: #ffffff;
     color: #f7b03c;
