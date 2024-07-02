@@ -260,7 +260,7 @@ and (max-device-width : 991px) {
 
 @media (min-width:992px) {
     .col-md-2 {
-        flex: 0 0 21.66667%;
+        flex: 0 0 15.66667%;
     max-width: 21.66667%
     }
 
