@@ -103,6 +103,9 @@ header {
     margin-left: 0.75rem;
 }
 
+.h1 {
+    font-weight: 400;
+}
 
 .space-3 {
     padding-top: 3rem;
