@@ -4,6 +4,10 @@
     color: #f7b03c;
 }
 
+.bg-primary {
+    background-color: #f7b03c;
+}
+
 .btn-outline-primary:hover{
     background-color: #f7b03c;
     border-color: #f7b03c;

@@ -20,34 +20,151 @@
         
   </head>
   <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark" style=" background-color:#43a4aa ;" >
-            <div class="container-fluid ">
-              <a class="navbar-brand" href="#"><img src="./assets/png/logo.jpeg" class="avatar avatar-xss rounded-circle img-fluid w-25 mr-2 " style="max-width: 3rem;"><span class="mr-2">Capucine Fauroux</span></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" class="btn btn-outline-primary" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse text-dark" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 d-lg-flex justify-content-end container">
-                
-                  <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="submit" class="btn text-light" onclick="window.open('cv.pdf')">Mon CV</button>
+    <header id="header" class="position-fixed w-100 p-1" style="z-index: 1;">
+      <nav class="navbar navbar-expand-md navbar-dark" >
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="#"><img src="./assets/png/logo-blanc.png" class="img-fluid ml-2 w-35" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-dark" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0 d-lg-flex justify-content-end w-100">
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#project">Mes projets</a>
+                </li>
+                <li class="nav-item ">
+                  <button type="submit" class="nav-link pb-0 text-light bg-transparent  border-0" onclick="window.open('cv.pdf')">Mon CV</button>
 
-                  </li>
-            
-                  <li class="nav-item">
-                    <a class="nav-link" href="mailto:capucine.fauroux@gmail.com">Me contacter</a>
-                  </li>
-                </ul>
-         
-              </div>
+                </li>
+          
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Me contacter</a>
+                </li>
+              </ul>
+       
             </div>
-          </nav>
-    </header>
+          </div>
+        </nav>
+  </header>
     <main id="content" role="main">
+
+<div class="container-fluid">
+  <div id="myCarousel" class="carousel slide bg-primary" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner pb-0">
+      <div class="carousel-item active">
+
+      
+        <div class="w-100">
+          <div class="carousel-caption text-start">
+            <div class="d-lg-flex ">
+                <div class=" col-lg-4">
+                    <a href="https://www.behance.net/gallery/189214050/YCITY" class="text-muted text-light text-transform">
+                        <div class="card rounded border-0">
+                   
+                            <div class="position-relative">
+                             <img src="./assets/img/YCITY/page-de-garde.png" class="img-fluid w-100">
+                            </div>
+                                 <div class="card-header border-0 bg-white">
+             
+                                     <h5 class="text-center">Projet intercommunale</h5>
+                                 </div>
+                         </div>
+                    </a>
+                  
+                </div>
+                <div class="mx-2 col-lg-4">
+                    <a href="https://www.behance.net/gallery/189214435/Fdration-des-constructeurs-de-communaut?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
+                        <div class="card rounded border-0">
+                   
+                            <div class="position-relative">
+                             <img src="./assets/img/FC/Pa-garde.png" class="img-fluid w-100">
+                            </div>
+                                 <div class="card-header border-0 bg-white">
+             
+                                     <h5 class="text-center">Les fédérateurs de communautés </h5>
+                                 </div>
+                         </div>
+                    </a>
+                  
+                </div>
+                <div class="mx-2 col-lg-4">
+                    <a href="https://www.behance.net/gallery/189390061/Landingpage-de-SaaSforSkills?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
+                        <div class="card rounded border-0">
+                   
+                            <div class="position-relative">
+                             <img src="./assets/img/SAASFORSKILLS/page-de-garde.png" class="img-fluid w-100">
+                            </div>
+                                 <div class="card-header border-0 bg-white">
+             
+                                     <h5 class="text-center">Software as a Service</h5>
+                                 </div>
+                         </div>
+                    </a>
+                  
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+      
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="d-lg-flex ">
+                <div class="mx-2 col-lg-4">
+                    <a href="https://www.behance.net/gallery/189223973/SensYcap?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
+                        <div class="card rounded border-0">
+                   
+                            <div class="position-relative">
+                             <img src="./assets/img/SENSYCAP/p-garde.png" class="img-fluid w-100">
+                            </div>
+                                 <div class="card-header border-0 bg-white">
+             
+                                     <h5 class="text-center">Sensibilisation à l'autisme</h5>
+                                 </div>
+                         </div>
+                    </a>
+                  
+                </div>
+                <div class="mx-2 col-lg-4">
+                    <a href="https://www.behance.net/gallery/108117671/Lavoir-Moderne-Vido?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
+                        <div class="card rounded border-0">
+                   
+                            <div class="position-relative">
+                             <img src="./assets/img/LavoirModerne/page-de-garde.png" class="img-fluid w-100">
+                            </div>
+                                 <div class="card-header border-0 bg-white">
+             
+                                     <h5 class="text-center">Motion design Lavoir Moderne</h5>
+                                 </div>
+                         </div>
+                    </a>
+                  
+                </div>
+         
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    <button class="carousel-control-prev " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
 
       <div class="container mt-4">
         <nav aria-label="breadcrumd rounded p-4" style="border: solid 1px #43a4aa;
