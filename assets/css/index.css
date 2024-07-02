@@ -412,6 +412,10 @@ and (max-device-width : 991px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+  .col-sm-3 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%
+  }
 }
 
 
