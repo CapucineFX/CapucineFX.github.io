@@ -8,6 +8,10 @@
     color: #ffffff;
 }
 
+.mr-3 {
+    margin-right: 3rem;
+}
+
 .btn-light{
     background-color: #ffffff;
     color: #f7b03c;
