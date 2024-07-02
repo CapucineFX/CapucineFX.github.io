@@ -11,6 +11,10 @@
 .mr-3 {
     margin-right: 3rem;
 }
+.col-3 {
+    flex: 0 0 21.66667%;
+    max-width: 21.66667%
+}
 
 .btn-light{
     background-color: #ffffff;
