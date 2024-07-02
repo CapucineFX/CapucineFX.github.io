@@ -5,6 +5,7 @@
 
 .btn-outline-primary:hover{
     background-color: #f7b03c;
+    border-color: #f7b03c;
     color: #ffffff;
 }
 
