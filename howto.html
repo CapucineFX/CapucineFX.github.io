@@ -10,17 +10,20 @@
   
     <!-- Favicon -->
 
+
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="./assets/css/bootstrap-min.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-min.css">
+
+
+
     <link rel="stylesheet" href="./assets/css/carousel.css">
-        
   </head>
   <body>
-    <header id="header" class="position-fixed w-100 p-1" style="z-index: 1;">
+    <header id="header" class="position-fixed bg-dark w-100 p-1" style="z-index: 1;">
       <nav class="navbar navbar-expand-md navbar-dark" >
           <div class="container-fluid ">
             <a class="navbar-brand" href="#"><img src="./assets/png/logo-blanc.png" class="img-fluid ml-2 w-35" ></a>
@@ -49,139 +52,96 @@
   </header>
     <main id="content" role="main">
 
-<div class="container-fluid">
-  <div id="myCarousel" class="carousel slide bg-primary" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner pb-0">
-      <div class="carousel-item active">
-
-      
-        <div class="w-100">
-          <div class="carousel-caption text-start">
-            <div class="d-lg-flex ">
-                <div class=" col-lg-4">
-                    <a href="https://www.behance.net/gallery/189214050/YCITY" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/YCITY/page-de-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Projet intercommunale</h5>
-                                 </div>
-                         </div>
-                    </a>
-                  
-                </div>
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/189214435/Fdration-des-constructeurs-de-communaut?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/FC/Pa-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Les fédérateurs de communautés </h5>
-                                 </div>
-                         </div>
-                    </a>
-                  
-                </div>
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/189390061/Landingpage-de-SaaSforSkills?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/SAASFORSKILLS/page-de-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Software as a Service</h5>
-                                 </div>
-                         </div>
-                    </a>
-                  
-                </div>
+   
+      <div class="position-relative  bg-dark">
+        <div class="container-fluid space-lg-4 space-sm-5 space-top-md-3">
+          <div id="myCarousel" class="carousel slide mb-0 " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#ycity" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#sensycap" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-      
-        <div class="container">
-          <div class="carousel-caption">
-            <div class="d-lg-flex ">
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/189223973/SensYcap?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/SENSYCAP/p-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Sensibilisation à l'autisme</h5>
+            <div class="carousel-inner pb-0">
+              <div class="carousel-item active" id="ycity">
+        
+              
+                <div class="w-100">
+                  <div class="carousel-caption text-start">
+                    <div class="d-md-flex justify-content-center col-9">
+                        <div class=" col-lg-3 mr-2 ">
+                          
+                       
+                           
+                 
+                                     <img src="./assets/img/ycity.png" class="img-fluid">
+                    
+                                         
+              
+                       
+                          
+                        </div>
+                        <div class="col-lg-6">
+                          <div class=" border-0 ">
+                     
+                            <h3 class="text-center mb-3">YCITY une plateforme qui relie les villes, les partenaires et les citoyens.</h3>
+                            <p>YCITY est un projet qui vise à créer du lien entre les citoyens, les communes et les associations de proximité. Elle facilite la participation citoyenne (recherche de bénévolat, mission locale), la recherche et le partage des ressources financières et humaines pour réaliser des projets dans la région. </p>
+                        </div>
                                  </div>
-                         </div>
-                    </a>
-                  
+                            </a>
+                          
+                        </div>
+                      
+                    </div>
+                  </div>
                 </div>
-                <div class="mx-2 col-lg-4">
-                    <a href="https://www.behance.net/gallery/108117671/Lavoir-Moderne-Vido?tracking_source=project_owner_other_projects" class="text-muted text-light text-transform">
-                        <div class="card rounded border-0">
-                   
-                            <div class="position-relative">
-                             <img src="./assets/img/LavoirModerne/page-de-garde.png" class="img-fluid w-100">
-                            </div>
-                                 <div class="card-header border-0 bg-white">
-             
-                                     <h5 class="text-center">Motion design Lavoir Moderne</h5>
+           
+              <div class="carousel-item" id="sensycap">
+              
+                <div class="w-100">
+                  <div class="carousel-caption text-start">
+                    <div class="d-md-flex justify-content-center col-9">
+                        <div class=" col-lg-3 mr-2">
+                          
+                       
+                           
+                 
+                                     <img src="./assets/img/SENSYCAP78-1296298113.png" class="img-fluid">
+                    
+                                         
+              
+                       
+                          
+                        </div>
+                        <div class="col-lg-6">
+                          <div class=" border-0 ">
+                     
+                            <h3 class="text-center mb-3">YCITY une plateforme qui relie les villes, les partenaires et les citoyens.</h3>
+                            <p>YCITY est un projet qui vise à créer du lien entre les citoyens, les communes et les associations de proximité. Elle facilite la participation citoyenne (recherche de bénévolat, mission locale), la recherche et le partage des ressources financières et humaines pour réaliser des projets dans la région. </p>
+                        </div>
                                  </div>
-                         </div>
-                    </a>
-                  
-                </div>
-         
+                            </a>
+                          
+                        </div>
+                      
+                    </div>
+                  </div>
+              </div>
+          
             </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
           </div>
         </div>
       </div>
   
-    </div>
-    <button class="carousel-control-prev " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
 
 
-      <div class="container mt-4">
-        <nav aria-label="breadcrumd rounded p-4" style="border: solid 1px #43a4aa;
-        border-radius: 6px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 9px;">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="./index.html">Accueil</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Comment ce site est-fait ?</li>
-          </ol>
-        </nav>
-        
-      </div>
-      
-
-      
 <div class="container">
   <div class="d-lg-flex align-items-center justify-content-between">
     <div class="clo-lg-4">
@@ -220,7 +180,13 @@
 
 
     </main>
-
+    <footer class="footer">
+      <div class="social-icons">
+          <a href="https://github.com/CapucineFX" target="_blank" class="icon github"></a>
+          <a href="https://www.linkedin.com/in/capucine-fauroux/" target="_blank" class="icon linkedin"></a>
+          <a href="https://www.behance.net/capucinefrx" target="_blank" class="icon behance"></a>
+      </div>
+  </footer>
  <!-- Element to contain animated typing -->
  <span id="element"></span>
 
@@ -234,6 +200,25 @@
     <script src="./assets/vendor/typed/typed.min.js"></script>
 
  
+
+    <script>
+     
+
+      let header = document.getElementById('header');
+  let timer;
+
+  window.addEventListener('scroll', () => {
+      if (window.scrollY > 0) {
+          clearTimeout(timer);
+          timer = setTimeout(() => {
+              header.classList.add('header-white');
+          },100);
+      } else {
+          clearTimeout(timer);
+          header.classList.remove('header-white');
+      }
+  });
+    </script>
 
   </body>
 </html>

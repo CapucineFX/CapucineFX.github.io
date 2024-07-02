@@ -325,10 +325,11 @@ and (max-device-width : 991px) {
         padding-top: 12.5rem !important
     }
 
+    /*
     .space-bottom-lg-4,
     .space-lg-4 {
         padding-bottom: 12.5rem !important
-    }
+    }*/
 
     .space-lg-5,
     .space-top-lg-5 {
